@@ -10,7 +10,7 @@ for line in lines:
 	fields = line.split()
 	numbers = fields[0].split("-")
 	firstNumber = int(numbers[0])  # Part 1 -> lowest occurrence  | Part 2 -> first position
- 	secondNumber = int(numbers[1]) # Part 1 -> highest occurrence | Part 2 -> second position
+	secondNumber = int(numbers[1]) # Part 1 -> highest occurrence | Part 2 -> second position
 	letter = fields[1][0]
 	password = fields[2]
 
